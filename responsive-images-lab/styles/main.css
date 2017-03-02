@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+}
+
+img#sfo {
+  transition: width 0.5s;
+  max-width: 50vw;
+}
+
+@media screen and (max-width: 700px) {
+  img#sfo {
+    width: 90vw;
+  }
+}
